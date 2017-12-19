@@ -9,7 +9,7 @@ function setCurrentDiv(num) {
     return currentDiv;
 }
 
-function checkIfUsedIndex(num = Math.floor(Math.random() * (6)), arr) {
+function checkIfUsedIndex(num, arr) {
     if (arr.indexOf(num) === -1) {
         arr.push(num);
          setCurrentDiv(num)
