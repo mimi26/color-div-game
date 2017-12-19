@@ -1,0 +1,10 @@
+.zone {
+    height: 25vh;
+    width: 10vw;
+    border: 1px solid black;
+    margin: 5vh;
+}
+
+.container {
+    display: flex;
+}
